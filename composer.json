@@ -1,0 +1,43 @@
+{
+    "name": "hola/oauth2-loginradius",
+    "description": "LoginRadius OAuth 2.0 Client Provider for The knpuniversity/oauth2-client-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hola SL",
+            "email": "desarrollo@hola.com",
+            "homepage": "https://github.com/developer-hola"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "loginradius"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hola\\OAuth2\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hola\\OAuth2\\Test\\": "test/src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
